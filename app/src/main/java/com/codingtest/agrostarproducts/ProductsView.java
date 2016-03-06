@@ -42,18 +42,6 @@ public class ProductsView extends Activity implements IProductView{
 
         presenter.setToolBarProperties();
         presenter.setProductAndFeaturesDetails();
-
-       /* vpForFeaturedImages.setPageMargin(-25);
-        productListSwipeAdapter = new ProductListSwipeAdapter(this);
-        vpForFeaturedImages.setAdapter(productListSwipeAdapter);
-        vpForFeaturedImages.setClipToPadding(false);
-        vpForFeaturedImages.setOffscreenPageLimit(3);
-
-        productsAdapter = new ProductsAdapter(this);
-        GridLayoutManager layoutManager = new GridLayoutManager(this,2);
-        rcvForProducts.setLayoutManager(layoutManager);
-        rcvForProducts.setAdapter(productsAdapter);
-*/
     }
 
     private void setLocalization(String language) {
@@ -71,19 +59,6 @@ public class ProductsView extends Activity implements IProductView{
         ButterKnife.bind(this);
         presenter.setToolBarProperties();
         presenter.setProductAndFeaturesDetails();
-        /*setToolbarProperties();
-        vpForFeaturedImages.setPageMargin(-25);
-
-        productListSwipeAdapter = new ProductListSwipeAdapter(this);
-        vpForFeaturedImages.setAdapter(productListSwipeAdapter);
-        // vpForFeaturedImages.setClipChildren(false);
-        vpForFeaturedImages.setClipToPadding(false);
-        vpForFeaturedImages.setOffscreenPageLimit(3);
-
-        productsAdapter = new ProductsAdapter(this);
-        GridLayoutManager layoutManager = new GridLayoutManager(this,2);
-        rcvForProducts.setLayoutManager(layoutManager);
-        rcvForProducts.setAdapter(productsAdapter);*/
     }
 
     @Override
@@ -124,30 +99,4 @@ public class ProductsView extends Activity implements IProductView{
         rcvForProducts.setLayoutManager(layoutManager);
         rcvForProducts.setAdapter(productsAdapter);
     }
-
-    /*public void setToolbarProperties() {
-        toolbar.setTitle(this.getResources().getString(R.string.home_title));
-        toolbar.inflateMenu(R.menu.menu_products);
-        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem item) {
-                Log.d("Products", item.getTitle().toString());
-                if(item.getItemId() == R.id.action_hindi_language){
-                    setLocalization("hi");
-                }
-                if(item.getItemId() == R.id.action_marathi_language){
-                    setLocalization("mr");
-                }
-                if(item.getItemId() == R.id.action_english_language){
-                    setLocalization("en_US");
-                }
-                if(item.getItemId() == R.id.action_search){
-
-                }
-                return false;
-            }
-        });
-    }*/
-
-
 }
