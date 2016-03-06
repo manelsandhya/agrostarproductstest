@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AgrostarProducts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="strForProductName">Product1</string>
+    <string name="strForPrice">1000</string>
+    <string name="home_title">Products</string>
+    <string name="strHindi">Hindi</string>
+    <string name="strMarathi">Marathi</string>
+    <string name="strSearch">Search</string>
+    <string name="strEnglish">English</string>
+    <string name="strFeatures">Features</string>
+
+    <string name="strForProduct1">Product1</string>
+    <string name="strForProduct2">Product2</string>
+    <string name="strForProduct3">Product3</string>
+    <string name="strForProduct4">Product4</string>
+    <string name="strForProduct5">Product5</string>
+    <string name="strForProduct6">Product6</string>
+
+    <string name="strFeatures1">Features1</string>
+    <string name="strFeatures2">Features2</string>
+    <string name="strFeatures3">Features3</string>
+    <string name="strFeatures4">Features4</string>
+    <string name="strFeatures5">Features5</string>
+    <string name="strFeatures6">Features6</string>
+</resources>

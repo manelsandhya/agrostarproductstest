@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">उत्पाद जानकारी</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="strForProductName">उत्पाद1</string>
+    <string name="strForPrice">1000</string>
+    <string name="home_title">उत्पादों</string>
+    <string name="strHindi">हिंदी</string>
+    <string name="strMarathi">मराठी</string>
+    <string name="strSearch">खोजो</string>
+    <string name="strEnglish">अंग्रेज़ी</string>
+    <string name="strFeatures">विशेषताएं</string>
+
+    <string name="strForProduct1">उत्पाद1</string>
+    <string name="strForProduct2">उत्पाद2</string>
+    <string name="strForProduct3">उत्पाद3</string>
+    <string name="strForProduct4">उत्पाद4</string>
+    <string name="strForProduct5">उत्पाद5</string>
+    <string name="strForProduct6">उत्पाद6</string>
+
+    <string name="strFeatures1">विशेषताए1</string>
+    <string name="strFeatures2">विशेषताए2</string>
+    <string name="strFeatures3">विशेषताए3</string>
+    <string name="strFeatures4">विशेषताए4</string>
+    <string name="strFeatures5">विशेषताए5</string>
+    <string name="strFeatures6">विशेषताए6</string>
+
+</resources>

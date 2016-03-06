@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ProductsPresenter">
+    <item android:id="@+id/action_hindi_language" android:title="@string/strHindi"
+        android:orderInCategory="10" app:showAsAction="never"/>
+    <item android:id="@+id/action_marathi_language" android:title="@string/strMarathi"
+        android:orderInCategory="10" app:showAsAction="never" />
+    <item android:id="@+id/action_english_language" android:title="@string/strEnglish"
+        android:orderInCategory="10" app:showAsAction="never" />
+    <item android:id="@+id/action_search"  android:title="@string/strSearch"
+        android:orderInCategory="10" app:showAsAction="ifRoom" />
+</menu>
